@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Test Suite" verbose="1" >
+  <test name="Regression">
+    <classes>
+      <class name="testcases.TC01"/>
+      <class name="testcases.TC02"/>
+      <class name="testcases.TC03"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="47362" started-at="2018-12-16T09:59:37Z" finished-at="2018-12-16T10:00:24Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="47362" started-at="2018-12-16T09:59:37Z" finished-at="2018-12-16T10:00:24Z">
+      <class name="testcases.TC01">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC01@cc285f4]" name="beforeClass" is-config="true" duration-ms="2930" started-at="2018-12-16T16:59:37Z" finished-at="2018-12-16T16:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testScript()[pri:0, instance:testcases.TC01@cc285f4]" name="testScript" duration-ms="10068" started-at="2018-12-16T16:59:39Z" description="Verify new customer can be created" finished-at="2018-12-16T16:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC01@cc285f4]" name="afterTest" is-config="true" duration-ms="174" started-at="2018-12-16T17:00:24Z" finished-at="2018-12-16T17:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.TC01 -->
+      <class name="testcases.TC03">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC03@8bd1b6a]" name="beforeClass" is-config="true" duration-ms="2418" started-at="2018-12-16T17:00:05Z" finished-at="2018-12-16T17:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testScript()[pri:0, instance:testcases.TC03@8bd1b6a]" name="testScript" duration-ms="16693" started-at="2018-12-16T17:00:07Z" description="Verify deposit function work fine with the account just created" finished-at="2018-12-16T17:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+      </class> <!-- testcases.TC03 -->
+      <class name="testcases.TC02">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC02@55f3ddb1]" name="beforeClass" is-config="true" duration-ms="2276" started-at="2018-12-16T16:59:50Z" finished-at="2018-12-16T16:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testScript()[pri:0, instance:testcases.TC02@55f3ddb1]" name="testScript" duration-ms="12787" started-at="2018-12-16T16:59:52Z" description="Verify to create new account based on the customer just created above" finished-at="2018-12-16T17:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScript -->
+      </class> <!-- testcases.TC02 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Test Suite -->
+</testng-results>
